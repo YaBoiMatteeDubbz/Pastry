@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "pastrymod:salt"
+    },
+    "X": {
+      "item": "pastrymod:salt_crystal"
+    }
+  },
+  "pattern": [
+    "X#X",
+    "X#X",
+    "X#X"
+  ],
+  "result": {
+    "item": "pastrymod:salt_pillar"
+  }
+}

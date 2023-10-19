@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "pastrymod:block/salt_pillar" }
+  }
+}

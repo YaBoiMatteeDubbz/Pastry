@@ -1,5 +1,16 @@
 {
   "item.pastrymod.flour": "Flour",
+  "item.pastrymod.dough": "Dough",
+  "item.pastrymod.salt": "Rock Salt",
+  "item.pastrymod.donut_raw": "Raw Donut",
+  "item.pastrymod.donut_cooked": "Donut",
+
+  "block.pastrymod.salt_block": "Block of Salt",
+  "block.pastrymod.decorative_salt_block": "Decorative Block of Salt",
+  "block.pastrymod.salt_crystal": "Salt Crystal",
+  "block.pastrymod.salt_pillar": "Salt Pillar",
+  "block.pastrymod.salt_polished": "Polished Block of Salt",
+  "block.pastrymod.salt_brick": "Polished Salt Bricks",
 
   "itemGroup.pastrymodtab": "Pastry Mod"
 }

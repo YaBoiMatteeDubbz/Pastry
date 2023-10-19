@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "pastrymod:block/decorative_salt_block"
+  }
+}

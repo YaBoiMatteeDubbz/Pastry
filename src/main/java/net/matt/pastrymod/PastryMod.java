@@ -1,7 +1,10 @@
 package net.matt.pastrymod;
 
 import com.mojang.logging.LogUtils;
+import net.matt.pastrymod.block.ModBlocks;
 import net.matt.pastrymod.item.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -22,10 +25,14 @@ public class PastryMod {
 
         ModItems.register(modEventBus);
 
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
+
+
     private void commonSetup(final FMLCommonSetupEvent event) {
 
     }

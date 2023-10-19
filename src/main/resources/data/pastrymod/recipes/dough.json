@@ -1,0 +1,20 @@
+{
+  "type":"minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pastrymod:flour"
+    },
+    {
+      "item": "pastrymod:salt"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "item": "pastrymod:dough"
+  }
+}
